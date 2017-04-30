@@ -14,7 +14,6 @@ body {
     background-repeat: repeat;
 }
 
-
 nav {
 	list-style: none;
 	color: #777777;
@@ -32,40 +31,6 @@ nav {
 	z-index: 2;
 }
 
-#name-logo {
-	background: #4aaaa5;
-	position: relative;
-	left: 0;
-	bottom: 7px;
-	float: left;
-	color: #ffffff;
-	text-align: center;
-	font-family: Georgia, Times, 'Times New Roman', serif;
-	width: 230px;
-	padding: 20px; 
-}
-
-#box-menu {
-	background: #ffffff;
-	position: relative;
-	left: 0;
-	bottom: 21px;
-	float: right;
-	color: #ffffff;
-	text-align: center;
-	width: 305px;
-	padding: 20px; 
-}
-
-.wrapper {
-	width: 960px;
-	padding: 0;
-	margin: 0 auto;
-	position: relative;
-	left: 0;
-	clear: both;
-}
-
 header, h3{
 	font-family: Georgia, Times, 'Times New Roman', serif;
 	color: #4aaaa5;
@@ -76,10 +41,11 @@ section {
 	background: #ffffff;
 	float: left;
 	width: 650px;
-	padding: 30px;
+	padding: 40px;
 	position: relative;
 	top: 140px;
 	left: 0;
+	margin-bottom: 120px;
 }
 
 
@@ -116,7 +82,6 @@ a {
 }
 
 
-
 hr {
 	border-top: 3px solid #cccccc;
 }
@@ -132,11 +97,54 @@ ul {
 	float: right;
 }
 
+
+#name-logo {
+	background: #4aaaa5;
+	position: relative;
+	left: 0;
+	bottom: 6px;
+	float: left;
+	color: #ffffff;
+	text-align: center;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	width: 230px;
+	padding: 20px; 
+}
+
+#box-menu {
+	background: #ffffff;
+	position: relative;
+	left: 0;
+	bottom: 21px;
+	float: right;
+	color: #ffffff;
+	text-align: center;
+	width: 305px;
+	padding: 20px; 
+}
+
+
+.wrapper {
+	width: 960px;
+	padding: 0;
+	margin: 0 auto;
+	position: relative;
+	left: 0;
+	clear: both;
+}
+
 .mypic {
 	float: left;
 	padding-top:10px;
 	padding-right: 20px;
 }
+
+
+.myportfolio {
+	float: left;
+	margin: 20px 20px 20px 0;
+}
+
 
 .social-icons, a {
 	float: center;
