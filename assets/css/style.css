@@ -39,6 +39,7 @@ header, h3{
 
 section {
 	background: #ffffff;
+	border: 1px solid #cccccc;
 	float: left;
 	width: 650px;
 	padding: 40px;
@@ -145,6 +146,71 @@ ul {
 	margin: 20px 20px 20px 0;
 }
 
+.green-box1 {
+	float: left;
+	background: #4aaaa5;
+	color: #ffffff;
+	width: 260px;
+	height: 60px;
+	position: absolute;
+	text-align: center;
+	padding-top: 10px;
+	top: 265px;
+}
+
+
+.green-box2 {
+	float: left;
+	background: #4aaaa5;
+	color: #ffffff;
+	width: 260px;
+	height: 60px;
+	position: absolute;
+	text-align: center;
+	padding-top: 10px;
+	top: 505px;
+}
+
+.green-box3 {
+	float: left;
+	background: #4aaaa5;
+	color: #ffffff;
+	width: 260px;
+	height: 60px;
+	position: absolute;
+	text-align: center;
+	padding-top: 10px;
+	top: 745px;
+}
+
+
+.green-box4 {
+	float: left;
+	background: #4aaaa5;
+	color: #ffffff;
+	width: 260px;
+	height: 60px;
+	position: absolute;
+	text-align: center;
+	padding-top: 10px;
+	top: 265px;
+	left: 320px;
+}
+
+
+.green-box5 {
+	float: left;
+	background: #4aaaa5;
+	color: #ffffff;
+	width: 260px;
+	height: 60px;
+	position: absolute;
+	text-align: center;
+	padding-top: 10px;
+	top: 505px;
+	left: 320px;
+}
+
 
 .social-icons, a {
 	float: center;
@@ -153,4 +219,36 @@ ul {
 	left:0;
 	margin: 0 auto;
 }
+
+
+/* Form */
+
+input {
+	border: 1px solid #cccccc;
+	width: 100%;
+	height: 30px;
+	color: #cccccc;
+	font-size: 14px;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+
+textarea {
+	border: 1px solid #cccccc;
+}
+
+#submit {
+	background: #4aaaa5;
+	width: 120px;
+	height: 40px;
+	color: #ffffff;
+	border-style: none;
+	font-size: 16px;
+	padding: 0;
+}
+
+
+
+
 
